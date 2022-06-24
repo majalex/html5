@@ -1,0 +1,41 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav div{
+    display: inline;
+    border-style: ridge;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size:larger;
+}
+#home{
+    display: inline;
+    border-style: ridge,;
+    border-color: black;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #000080;
+    color: white;
+}
+#first{
+    background-color: #ffbf80;
+    text-align: left;
+    padding: 2%;
+    
+}
+#second, #third{
+    background-color: #70db70;
+    text-align: center;
+    padding: 2%;
+}
+footer p{
+    background-color: gray;
+    text-align: center;
+    padding: 1%;
+}
+p{
+    text-align: justify;
+}
+#first > p {
+    text-align: left;
+}
